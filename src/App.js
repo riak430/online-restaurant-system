@@ -8,6 +8,7 @@ function App() {
       <Menubar />
 
       <div>Main section</div>
+      <div>Footer section</div>
     </div>
   );
 }
