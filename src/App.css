@@ -1,38 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
+  background-image: url(https://images.pexels.com/photos/299348/pexels-photo-299348.jpeg?cs=srgb&dl=pexels-terje-sollie-299348.jpg&fm=jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding-top: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.menu a {
+  margin: 30px;
+  text-decoration: none;
   color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
 }
-
-.App-link {
-  color: #61dafb;
+.gusto {
+  color: white;
+  font-size: 4.7rem;
+  margin: 200px;
+  font-family: "Dancing Script", cursive;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.phone {
+  color: white;
+  font-size: 1.2rem;
 }
