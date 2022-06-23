@@ -14,5 +14,5 @@
 }
 .boxs {
   display: grid;
-  grid-template-columns: repeat(3, 1);
+  grid-template-columns: repeat(1fr, 3);
 }
