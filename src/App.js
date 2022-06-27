@@ -233,6 +233,70 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className="egneeZurag">
+        <div className="zuragnuud">
+          <img src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?cs=srgb&dl=pexels-jonathan-borba-2983101.jpg&fm=jpg"/>
+          <img src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?cs=srgb&dl=pexels-nerfee-mirandilla-3186654.jpg&fm=jpg"/>
+          <img src="https://images.pexels.com/photos/628776/pexels-photo-628776.jpeg?cs=srgb&dl=pexels-christel-jensen-628776.jpg&fm=jpg"/>
+          <img src="https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?cs=srgb&dl=pexels-ella-olsson-3026808.jpg&fm=jpg"/>
+        </div>
+      </div>
+
+      <div className="story">
+        <div className="text">
+          <h1>Meet Our Chef</h1>
+          <div className="zuraas"></div>
+          <Orts orts="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh." />
+          <Orts orts="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare." />
+        </div>
+        <div className="zurag">
+          <Image src="https://images.pexels.com/photos/4253297/pexels-photo-4253297.jpeg?cs=srgb&dl=pexels-cottonbro-4253297.jpg&fm=jpg" />
+        </div>
+      </div>
+
+      <div className="footer">
+        <div className="footer1">
+          <div className="boxx">
+            <div className="reservations">
+              <h2>RESERVATIONS</h2>
+              <div className="arrow"></div>
+              <p>Please call</p>
+              <p>(887) 654-3210</p>
+            </div>
+          </div>
+          <div className="boxx">
+            <div className="address">
+              <h2>Address</h2>
+              <div className="arrow"></div>
+              <p>4321 California St,</p>
+              <p>San Francisco, CA 12345</p>
+            </div>
+          </div>
+          <div className="boxx">
+            <div className="hours">
+              <h2>Opening Hours</h2>
+              <div className="arrow"></div>
+              <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+              <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div className="footer2">
+          <div className="input">
+            <h2>Send Us a Message</h2>
+            <input type="text" className="name form-control" placeholder="Name"></input>
+            <input type="text" className="mail form-control" placeholder="E-mail"></input>
+            <textarea className="message" placeholder="Message"></textarea>
+            <button className="messagebtn">Send Message</button>
+          </div>
+        </div>
+        <div className="footer3">
+          <div className="copyrigth">
+            <p>Copyright. All rights reserved | Designed by TemplateWire</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
